@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#F5F5F5">
+
+    <EditText
+        android:id="@+id/etInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите текст для сохранения"
+        android:padding="16dp"
+        android:textSize="18sp"
+        android:background="@drawable/edittext_background"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tvOutput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Здесь появится сохранённый текст"
+        android:padding="16dp"
+        android:textSize="18sp"
+        android:background="@drawable/textview_background"
+        android:layout_marginBottom="16dp"
+        android:minHeight="60dp"/>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сохранить"
+        android:padding="16dp"
+        android:textSize="18sp"
+        android:backgroundTint="#2196F3"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnLoad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Загрузить"
+        android:padding="16dp"
+        android:textSize="18sp"
+        android:backgroundTint="#FF9800"
+        android:textColor="#FFFFFF"/>
+</LinearLayout>
